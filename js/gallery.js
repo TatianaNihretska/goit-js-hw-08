@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  showModal(e.target.src);
+  showModal(e.target.dataset.source);
 });
 
 
